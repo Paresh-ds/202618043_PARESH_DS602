@@ -441,7 +441,7 @@ with tab2:
 
             st.metric(
                 f"{group1_name} p-value",
-                f"{shapiro1.pvalue:.6f}"
+                f"{shapiro1.pvalue:.4g}"
             )
 
 
@@ -449,7 +449,7 @@ with tab2:
 
             st.metric(
                 f"{group2_name} p-value",
-                f"{shapiro2.pvalue:.6f}"
+                f"{shapiro2.pvalue:.4g}"
             )
 
 
@@ -467,7 +467,7 @@ with tab2:
 
         st.metric(
             "Levene p-value",
-            f"{levene_pvalue:.6f}"
+            f"{levene_pvalue:.4g}"
         )
 
 
@@ -551,7 +551,7 @@ with tab2:
 
             st.metric(
                 "p-value",
-                f"{p_value:.6f}"
+                f"{p_value:.4g}"
             )
 
 
